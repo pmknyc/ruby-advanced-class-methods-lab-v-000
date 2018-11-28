@@ -36,7 +36,7 @@ class Song
 # takes in string name of song
 # returns a song instance with that name as its name property
 # returns instance of Song, NOT a simple string or anything else.
-def self.new_by_name(name)
+def self.new_by_name(name) # enter name as string
   song = self.new
   song.name = name
   song
